@@ -1,0 +1,26 @@
+﻿@model List<MVCApp.Models.Books>
+<h2>Book List</h2>
+<table class="table">
+<thead>
+    <tr>Title</tr>
+    <tr>Author</tr>
+    <tr>Price</tr>
+    <tr>Discount</tr>
+</thead>
+<tbody>
+    @for(int i=0;i<Model.Count;i++)
+    {
+        <tr>
+        <td>@Model[i].Title</td>
+        <td>@Model[i].Author</td>
+        <td>@Model[i].Price</td>
+        <td>
+            <a asp-action="Discount" asp-route-itemid="@i" asp-route-percentage="20">
+                Apply 20% Discount
+            </a>
+        </td>
+        </tr>
+
+    }
+</tbody>
+</table>

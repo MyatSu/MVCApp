@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "KTPR4KYHTQU=",
+  "success": true,
+  "projectFilePath": "/Users/myatsusuaung/Documents/Workspace/CSharp/MVCApp/MVCApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/myatsusuaung/.nuget/packages/microsoft.netcore.app.ref/9.0.16/microsoft.netcore.app.ref.9.0.16.nupkg.sha512",
+    "/Users/myatsusuaung/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.16/microsoft.aspnetcore.app.ref.9.0.16.nupkg.sha512",
+    "/Users/myatsusuaung/.nuget/packages/microsoft.netcore.app.host.osx-arm64/9.0.16/microsoft.netcore.app.host.osx-arm64.9.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}
